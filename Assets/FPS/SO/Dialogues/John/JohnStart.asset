@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbb4c4942b23bf143b07552335542698, type: 3}
+  m_Name: JohnStart
+  m_EditorClassIdentifier: 
+  dialogueLine:
+  - Hello, my friend!
+  - I'm not having the best day for friendly conversation. I'm sorry...
+  responses:
+  - responseText: What's happend?
+    dialogueToStart: {fileID: 11400000, guid: 74beb09493e77ad45ab72ec6b41bab79, type: 2}
+    requiredQuest: {fileID: 11400000, guid: 01fcc078f88f1ea4b92a0be586246d9f, type: 2}
+    requiredObjective: {fileID: 0}
+  - responseText: I killed them
+    dialogueToStart: {fileID: 11400000, guid: 63582979d5c67a448aead5654769733c, type: 2}
+    requiredQuest: {fileID: 0}
+    requiredObjective: {fileID: 11400000, guid: ea09ef16f421cf64c89782d5eb0bace2,
+      type: 2}
+  - responseText: Bye
+    dialogueToStart: {fileID: 11400000, guid: ec896dc863b1b4347aa258eaf1f572a3, type: 2}
+    requiredQuest: {fileID: 0}
+    requiredObjective: {fileID: 0}

@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbb4c4942b23bf143b07552335542698, type: 3}
+  m_Name: JoshStart
+  m_EditorClassIdentifier: 
+  dialogueLine:
+  - Hello!
+  - Have you talked to my brother John?
+  responses:
+  - responseText: Speaking of that...
+    dialogueToStart: {fileID: 11400000, guid: 01a2da7c79d1e844a88e03ce8d314307, type: 2}
+    requiredQuest: {fileID: 0}
+    requiredObjective: {fileID: 11400000, guid: 77929018eb523cf4db40b2cb53bf08d5,
+      type: 2}
+  - responseText: I am done
+    dialogueToStart: {fileID: 11400000, guid: 1d6971122aaa442458fbf35b48c2dbfb, type: 2}
+    requiredQuest: {fileID: 0}
+    requiredObjective: {fileID: 11400000, guid: 6c7675bc8d27c8344a88b2e6b1ad2b2d,
+      type: 2}
+  - responseText: No
+    dialogueToStart: {fileID: 11400000, guid: 938a9ee24375a004689bf97ef58d63cb, type: 2}
+    requiredQuest: {fileID: 0}
+    requiredObjective: {fileID: 0}
+  - responseText: Bye
+    dialogueToStart: {fileID: 11400000, guid: 0108fea323040f448903c5c05cad599c, type: 2}
+    requiredQuest: {fileID: 0}
+    requiredObjective: {fileID: 0}

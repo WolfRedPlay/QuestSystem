@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ed950dcffdea6d44a9b2994b0477f6a, type: 3}
+  m_Name: TurretKill
+  m_EditorClassIdentifier: 
+  title: A huge pest
+  description: John asked me to help his brother Josh with something.
+  stages:
+  - DelayVisible: 0
+    Title: Move to the new area
+    Objectives:
+    - {fileID: 11400000, guid: e67833bbcd562c64a80d3e26b70741ae, type: 2}
+    - {fileID: 11400000, guid: 77929018eb523cf4db40b2cb53bf08d5, type: 2}
+  - DelayVisible: 0
+    Title: Time to kill this big guy
+    Objectives:
+    - {fileID: 11400000, guid: b56a193ccfb21ca468a1d0e9ab85d895, type: 2}
+  - DelayVisible: 0
+    Title: Stone flowers?
+    Objectives:
+    - {fileID: 11400000, guid: 6c7675bc8d27c8344a88b2e6b1ad2b2d, type: 2}
+  requiredQuest: {fileID: 11400000, guid: 01fcc078f88f1ea4b92a0be586246d9f, type: 2}

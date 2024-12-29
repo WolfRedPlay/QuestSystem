@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ed950dcffdea6d44a9b2994b0477f6a, type: 3}
+  m_Name: HoverBotKillQuest
+  m_EditorClassIdentifier: 
+  title: Robot annihilation
+  description: These hoverbots are really annoying John. Help him deal with this
+    problem before the robots trample his garden beds.
+  stages:
+  - DelayVisible: 0
+    Title: Move to the garden
+    Objectives:
+    - {fileID: 11400000, guid: 74f641053b84c764a956b97104adf2c9, type: 2}
+  - DelayVisible: 0
+    Title: Annihilation!
+    Objectives:
+    - {fileID: 11400000, guid: 4a943f179e5ec37419fb9fc94f08056a, type: 2}
+  - DelayVisible: 0
+    Title: Make John happy
+    Objectives:
+    - {fileID: 11400000, guid: ea09ef16f421cf64c89782d5eb0bace2, type: 2}
+  requiredQuest: {fileID: 0}
